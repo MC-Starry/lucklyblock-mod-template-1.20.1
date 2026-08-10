@@ -1,3 +1,4 @@
 {
-  "item.luckblock:luckly_block_chip": "luckly block chip"
+  "item.luckblock.luckly_block_chip": "luckly block chip",
+  "ItemGroup.luclyblockmodgroup": "luckly block mod"
 }

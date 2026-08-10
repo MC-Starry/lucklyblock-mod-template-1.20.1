@@ -1,6 +1,7 @@
-package fun.starry.block;
+package fun.starry.item;
 
 import fun.starry.LucklyBlockMod;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -27,6 +28,10 @@ public class ModLucklyBlock {
 
         return Registry.register(Registries.ITEM, key, item);
     }//注册item
+
+    public static void AddingItemsToGroup(FabricItemGroupEntries entries){
+        entries.add(LUCKLY_BLOCK_CHIP);
+    }
 
     public static void registerItem(){
 

@@ -1,6 +1,7 @@
 package fun.starry;
 
-import fun.starry.block.ModLucklyBlock;
+import fun.starry.item.ModItemGroup;
+import fun.starry.item.ModLucklyBlock;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -22,6 +23,7 @@ public class LucklyBlockMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
         ModLucklyBlock.registerItem();
+        ModItemGroup.registerGroup();
 		LOGGER.info("Luckly block start!");
 	}
 

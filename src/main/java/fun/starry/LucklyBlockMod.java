@@ -1,5 +1,6 @@
 package fun.starry;
 
+import fun.starry.block.ModLucklyBlock;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -20,8 +21,8 @@ public class LucklyBlockMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+        ModLucklyBlock.registerItem();
+		LOGGER.info("Luckly block start!");
 	}
 
 	public static Identifier id(String path) {

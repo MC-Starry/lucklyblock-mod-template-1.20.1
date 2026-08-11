@@ -1,4 +1,5 @@
 {
   "item.luckblock.luckly_block_chip": "幸运方块碎片",
-  "ItemGroup.luclyblockmodgroup": "幸运方块"
+  "ItemGroup.luclyblockmodgroup": "幸运方块模组",
+  "block.luckblock.luckly_block": "幸运方块"
 }

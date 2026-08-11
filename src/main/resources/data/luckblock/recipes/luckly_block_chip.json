@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "luckly_block",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "x": {
+      "item": "minecraft:gold_ingot"
+    },
+    "y": {
+      "item": "minecraft:diamond"
+    },
+    "z": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "#yx",
+    "zba",
+    "bbb"
+  ],
+  "result": {
+    "count": 32,
+    "item": "luckblock:luckly_block_chip"
+  },
+  "show_notification": true
+}

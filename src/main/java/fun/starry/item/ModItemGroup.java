@@ -1,6 +1,7 @@
 package fun.starry.item;
 
 import fun.starry.LucklyBlockMod;
+import fun.starry.block.ModBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -23,7 +24,8 @@ public class ModItemGroup {
                         .displayName(Text.translatable("ItemGroup.luclyblockmodgroup"))
                         .icon(() -> new ItemStack(ModLucklyBlock.LUCKLY_BLOCK_CHIP))
                         .entries((displayContext, entries) -> {
-                            entries.add(ModLucklyBlock.LUCKLY_BLOCK_CHIP);
+                            entries.add(ModLucklyBlock.LUCKLY_BLOCK_CHIP);//碎片
+                            entries.add(ModBlock.LUCKLY_bLOCK);//方块
                         })
                         .build()
                         );//注册"ItemGroup.luclyblockmodgroup"的栏

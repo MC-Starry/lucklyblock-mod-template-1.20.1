@@ -1,5 +1,6 @@
 package fun.starry;
 
+import fun.starry.block.ModBlock;
 import fun.starry.item.ModItemGroup;
 import fun.starry.item.ModLucklyBlock;
 import net.fabricmc.api.ModInitializer;
@@ -24,6 +25,7 @@ public class LucklyBlockMod implements ModInitializer {
 		// Proceed with mild caution.
         ModLucklyBlock.registerItem();
         ModItemGroup.registerGroup();
+        ModBlock.registerBlock();
 		LOGGER.info("Luckly block start!");
 	}
 

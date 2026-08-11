@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "luckblock:luckly_block_chip"
+    },
+    {
+      "item": "luckblock:luckly_block_chip"
+    },
+    {
+      "item": "luckblock:luckly_block_chip"
+    },
+    {
+      "item": "luckblock:luckly_block_chip"
+    },
+    {
+      "item": "luckblock:luckly_block_chip"
+    },
+    {
+      "item": "luckblock:luckly_block_chip"
+    },
+    {
+      "item": "luckblock:luckly_block_chip"
+    },
+    {
+      "item": "luckblock:luckly_block_chip"
+    },
+    {
+      "item": "luckblock:luckly_block_chip"
+    }
+  ],
+  "result": {
+    "item": "luckblock:luckly_block",
+    "count": 1
+  }
+}
